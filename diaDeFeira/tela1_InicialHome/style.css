@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  line-height: 1.6;
+}
+
+header {
+  background-color: gray;
+  padding: 20px;
+  text-align: center;
+  color: white;
+}
+  
+.logo h1 {
+  margin: 0;
+}
+
+#img-logo {
+  width: 20rem;
+}
+  
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+  
+nav ul li {
+  margin: 0 15px;
+}
+  
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+}
+  
+.banner {
+  background-color: #f8f9fa;
+  padding: 60px 20px;
+  text-align: center;
+}
+  
+.banner h2 {
+  margin-bottom: 10px;
+  font-size: 28px;
+  color: #333;
+}
+  
+.banner p {
+  margin-bottom: 20px;
+  color: #555;
+}
+  
+.banner .btn {
+  background-color: #28a745;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+}
+  
+.banner .btn:hover {
+  background-color: #218838;
+}
+  
+.feiras-populares {
+  padding: 40px 20px;
+  background-color: #fff;
+}
+  
+.feiras-populares h2 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+  
+.feira-card {
+  background-color: #f1f1f1;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  text-align: center;
+}
+  
+.feira-card h3 {
+  margin-bottom: 10px;
+}
+  
+.feira-card p {
+  color: #555;
+}
+  
+.feira-card .btn {
+  background-color: #007bff;
+  color: white;
+  padding: 8px 15px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+  
+.feira-card .btn:hover {
+  background-color: #0056b3;
+}
+  
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  position: absolute;
+  width: 100%;
+}
+  
