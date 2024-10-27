@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dia de Feira</title>
+    <link rel="stylesheet" href="style-cadastro.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  </head>
+  <body>
+
+    <header>
+      <div class="logo">DIA DE FEIRA</div>
+      <div class="search-bar">
+          <i class="fas fa-search search-icon"></i>
+          <input id="text" placeholder="Buscar no site...">
+          <i class="fas fa-microphone mic-icon"></i>
+      </div>
+      <nav>
+          <a href="#">Buscar Feiras</a>
+          <a href="#">Mapa de Feiras</a>
+          <a href="#">Perfil de Produtores</a>
+      </nav>
+      <div class="auth-section">
+        <p>Já tem uma conta?</p>
+        <a href="/tela2_Login/index-login.html" class="login-button">Login</a>
+      </div>
+    </header>
+
+    <main>
+
+      <section class="signup">
+        <h2>Cadastro do Visitante</h2>
+        <form id="signupForm">
+          <div class="form-group">
+            <label for="username">Nome:</label>
+            <input type="text" id="username" required>
+          </div>
+          <div class="form-group">
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" required>
+          </div>
+          <div class="form-group">
+            <label for="password">Senha:</label>
+            <input type="password" id="password" required>
+          </div>
+          <button type="submit">Cadastrar</button>
+        </form>
+      </section>
+
+      <section class="signup">
+        <h2>Cadastro do Produtor</h2>
+        <form id="signupForm">
+          <div class="form-group">
+            <label for="username">Nome:</label>
+            <input type="text" id="username" required>
+          </div>
+          <div class="form-group">
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" required>
+          </div>
+          <div class="form-group">
+            <label for="password">Senha:</label>
+            <input type="password" id="password" required>
+          </div>
+          <button type="submit">Cadastrar</button>
+        </form>
+      </section>
+
+    </main>
+
+    <footer>
+        <p>Copyright &copy; Dia de Feira | Todos os direitos reservados</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
